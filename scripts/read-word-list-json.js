@@ -59,6 +59,10 @@ function get_npc_choice_map()
     return npc_phrase_map;
 }
 
+function to_alphanumeric(str) {
+    return str.replace(/[^a-z0-9]/gi, '');
+}
+
 function read_word_list(callback)
 {
     const file_path = "./data/word_list.json";
@@ -98,6 +102,7 @@ function read_word_list(callback)
     {
         word_array.forEach(function (phrase)
         {
+            phrase = to_alphanumeric(phrase);
             let first_character = phrase[0];
             let last_character = get_last_character(phrase);
             let word = word_id + ";" + phrase + ";" + phrase_type;
