@@ -105,7 +105,7 @@ function read_word_list(callback)
     {
         word_array.forEach(function (phrase)
         {
-            let first_character = wanakana.toHiragana(phrase[0]);
+            let first_character = phrase[0];
             let last_character = get_last_character(phrase);
             let word = word_id + ";" + phrase + ";" + phrase_type;
 

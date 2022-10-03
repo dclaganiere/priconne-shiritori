@@ -279,7 +279,7 @@ function get_possible_words(phrase)
         {
             let first_character = word_data.get(word_list_keys.futsuyomi)[i][0];
             if (end_character === first_character ||
-                wanakana.toKatakana(end_character) === first_character)
+                end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.futsuyomi)[i]] : word_list_keys.futsuyomi });
             }
@@ -288,7 +288,7 @@ function get_possible_words(phrase)
         {
             let first_character = word_data.get(word_list_keys.urayomi)[i][0];
             if (end_character === first_character ||
-                wanakana.toKatakana(end_character) === first_character)
+                end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.urayomi)[i]] : word_list_keys.urayomi });
             }
@@ -297,7 +297,7 @@ function get_possible_words(phrase)
         {
             let first_character = word_data.get(word_list_keys.priconneyomi)[i][0];
             if (end_character === first_character ||
-                wanakana.toKatakana(end_character) === first_character)
+                end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.priconneyomi)[i]] : word_list_keys.priconneyomi });
             }
@@ -599,7 +599,7 @@ function get_last_character(phrase)
     if (last_character === "ュ") { last_character = "ユ"; }
     if (last_character === "ゅ") { last_character = "ゆ"; }
     if (last_character === "ャ") { last_character = "や"; }
-    return wanakana.toHiragana(last_character);
+    return last_character;
 }
 
 function toggle_rush_mode()
