@@ -353,8 +353,15 @@ function get_possible_words(phrase)
             }
             else
             {
-                // COLOR HIGHLIGHT GOLD IF THERE IS A WORD THAT A PLAYER NEEDS
-                color_highlight = (missing_phrase_map.get(last_character).length > 0 ? "gold-outline " : "");
+                if (missing_phrase_map.has(last_character))
+                {
+                    // COLOR HIGHLIGHT GOLD IF THERE IS A WORD THAT A PLAYER NEEDS
+                    color_highlight = (missing_phrase_map.get(last_character).length > 0 ? "gold-outline " : "");
+                }
+                else
+                {
+                    color_highlight = "";
+                }
             }
         }
         else
