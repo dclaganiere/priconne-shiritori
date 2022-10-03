@@ -428,9 +428,7 @@ function get_possible_words(phrase)
                 (kaya_and_user_can_select_new_phrases ? "\nKaya and Player has a chance of choosing new phrases!\n" + kaya_and_user_phrases_string : "");
         }
 
-        additional_title_text = additional_title_text.replace(/'/g, "");
-        console.log(phrase + "\n" + additional_title_text);
-
+        //console.log(phrase + "\n" + additional_title_text);
 
         // INSERT DATA
         table_html += "<th class='word-image'>";
