@@ -150,6 +150,8 @@ function add_word_to_collection(word_id, phrase, phrase_type)
 {
     let word = word_id + ";" + phrase + ";" + phrase_type;
 
+    phrase = to_alphanumeric(phrase);
+
     // CHECK IF WORD EXISTS IN COLLECTION
     if (!shiritori_game.collected_words.includes(word))
     {
@@ -206,6 +208,8 @@ function remove_word_from_collection(word_id, phrase, phrase_type)
 {
     let word = word_id + ";" + phrase + ";" + phrase_type;
 
+    phrase = to_alphanumeric(phrase);
+    
     // CHECK IF WORD EXISTS IN COLLECTION
     if (shiritori_game.collected_words.includes(word))
     {
