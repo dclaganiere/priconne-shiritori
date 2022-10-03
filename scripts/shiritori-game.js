@@ -434,10 +434,10 @@ function get_possible_words(phrase)
 
         // INSERT DATA
         table_html += "<th class='word-image'>";
-        table_html += "<button id='" + word_id + "_" + phrase + "' class='pointer-cursor word-selection-button" + (is_word_already_collected ? " low-opacity" : "") + "' onclick='shiritori(\"" + word_id + "\", \"" + phrase + "\", \"" + phrase_type + "\")'>";
-        table_html += "<img class='notranslate " + color_highlight + phrase_highlight + " word-image' title='" + phrase + "\n" + additional_title_text + "' src='images/game/" + word_id + ".png' alt=''>";
-        table_html += "<img class='notranslate " + phrase_highlight + "character-circle' src='images/webpage/" + "character_circle" + ".png' alt=''>";
-        table_html += "<div class='notranslate end-character webpage-text " + phrase_type + "'>" + get_last_character(phrase) + "</div>";
+        table_html += `<button id="${word_id}_${phrase}" class="pointer-cursor word-selection-button${is_word_already_collected ? " low-opacity" : ""}" onclick="shiritori('${word_id}', '${phrase}', '${phrase_type}')">`;
+        table_html += `<img class="notranslate ${color_highlight}${phrase_highlight} word-image" title="${phrase}\n${additional_title_text}" src="images/game/${word_id}.png" alt="">`;
+        table_html += `<img class="notranslate ${phrase_highlight}character-circle" src="images/webpage/character_circle.png" alt="">`;
+        table_html += `<div class="notranslate end-character webpage-text ${phrase_type}">${get_last_character(phrase)}</div>`;
         table_html += "</button></th>";
 
         counter++;
