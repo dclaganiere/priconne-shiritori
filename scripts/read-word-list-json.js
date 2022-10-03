@@ -20,9 +20,6 @@ let reverse_result_map_counter = 0;
 read_word_list(function () {
     console.log(get_colored_message(_read_word_list_js.sender_name, "Word list loaded!", message_status.SUCCESS));
     word_list_loaded = true;
-
-    // ADD ん TO RESULT MAP
-    result_map.set("ん", []);
 });
 
 function print_result_map()
@@ -45,8 +42,6 @@ function get_missing_phrase_map()
         phrase_array = phrase_array.filter(n => !collection.includes(n));
         missing_phrase_map.set(character, phrase_array);
     });
-    // ADD ん
-    missing_phrase_map.set("ん", []);
 
     return missing_phrase_map;
 }
@@ -60,15 +55,13 @@ function get_npc_choice_map()
         phrase_array = phrase_array.filter(n => n.indexOf(word_list_keys.priconneyomi) < 0);
         npc_phrase_map.set(character, phrase_array);
     });
-    // ADD ん
-    npc_phrase_map.set("ん", []);
 
     return npc_phrase_map;
 }
 
 function read_word_list(callback)
 {
-    const file_path = "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/word_list.json";
+    const file_path = "./data/word_list.json";
     console.log(get_colored_message(_read_word_list_js.sender_name, "Reading ", message_status.INFO) + highlight_code(file_path) + message_status.INFO + "...");
 
     return $(function () {

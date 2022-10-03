@@ -278,8 +278,7 @@ function get_possible_words(phrase)
         for (let i = 0 ; i < word_data.get(word_list_keys.futsuyomi).length ; i++)
         {
             let first_character = word_data.get(word_list_keys.futsuyomi)[i][0];
-            if (end_character === first_character ||
-                end_character === first_character)
+            if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.futsuyomi)[i]] : word_list_keys.futsuyomi });
             }
@@ -287,8 +286,7 @@ function get_possible_words(phrase)
         for (let i = 0 ; i < word_data.get(word_list_keys.urayomi).length ; i++)
         {
             let first_character = word_data.get(word_list_keys.urayomi)[i][0];
-            if (end_character === first_character ||
-                end_character === first_character)
+            if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.urayomi)[i]] : word_list_keys.urayomi });
             }
@@ -296,8 +294,7 @@ function get_possible_words(phrase)
         for (let i = 0 ; i < word_data.get(word_list_keys.priconneyomi).length ; i++)
         {
             let first_character = word_data.get(word_list_keys.priconneyomi)[i][0];
-            if (end_character === first_character ||
-                end_character === first_character)
+            if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.priconneyomi)[i]] : word_list_keys.priconneyomi });
             }
@@ -389,15 +386,18 @@ function get_possible_words(phrase)
                     kaya_phrases_string += "  - " + kaya_phrase + "\n";
                 }
 
-                if (missing_phrases.length > 0)
+                if (missing_phrases != null)
                 {
-                    user_can_select_new_phrase = true;
-                    user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
-                }
-                if ((kaya_new_phrases.includes(kaya_phrase) && missing_phrases.length > 0))
-                {
-                    kaya_and_user_can_select_new_phrases = true;
-                    kaya_and_user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                    if (missing_phrases.length > 0)
+                    {
+                        user_can_select_new_phrase = true;
+                        user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                    }
+                    if ((kaya_new_phrases.includes(kaya_phrase) && missing_phrases.length > 0))
+                    {
+                        kaya_and_user_can_select_new_phrases = true;
+                        kaya_and_user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                    }
                 }
             });
 
@@ -421,7 +421,9 @@ function get_possible_words(phrase)
                 (kaya_and_user_can_select_new_phrases ? "\nKaya and Player has a chance of choosing new phrases!\n" + kaya_and_user_phrases_string : "");
         }
 
-        //console.log(phrase + "\n" + additional_title_text);
+        additional_title_text = additional_title_text.replace(/'/g, "");
+        console.log(phrase + "\n" + additional_title_text);
+
 
         // INSERT DATA
         table_html += "<th class='word-image'>";
@@ -623,6 +625,10 @@ function toggle_rush_mode()
     document.getElementById("undo-button").disabled = true;
 }
 
+function to_alphanumeric(str) {
+    return str.replace(/[^a-z0-9]/gi, '');
+}
+
 function build_word_list()
 {
     let html = "";
@@ -652,7 +658,8 @@ function build_word_list()
             html += "<br>";
             for (let i = 0 ; i < futsuyomi_array.length ; i++)
             {
-                html += "<button id='" + word_id + "-" + futsuyomi_array[i] + "' onclick='toggle_phrase(\"" + word_id + "\", \"" + futsuyomi_array[i] + "\", \"futsuyomi\");'>";
+                let reading = to_alphanumeric(futsuyomi_array[i]);
+                html += "<button id='" + word_id + "-" + reading + "' onclick='toggle_phrase(\"" + word_id + "\", \"" + reading + "\", \"futsuyomi\");'>";
                 html += "<div class='futsuyomi word-list-text' style='font-weight: bolder'>" + futsuyomi_array[i] + "</div>";
                 html += "</button><br>";
             }
@@ -663,7 +670,8 @@ function build_word_list()
         {
             for (let i = 0 ; i < urayomi_array.length ; i++)
             {
-                html += "<button id='" + word_id + "-" + urayomi_array[i] + "' onclick='toggle_phrase(\"" + word_id + "\", \"" + urayomi_array[i] + "\", \"urayomi\")'>";
+                let reading = to_alphanumeric(urayomi_array[i]);
+                html += "<button id='" + word_id + "-" + reading + "' onclick='toggle_phrase(\"" + word_id + "\", \"" + reading + "\", \"urayomi\")'>";
                 html += "<div class='urayomi word-list-text' style='font-weight: bolder'>" + urayomi_array[i] + "</div>";
                 html += "</button><br>";
             }
@@ -674,7 +682,8 @@ function build_word_list()
         {
             for (let i = 0 ; i < priconneyomi_array.length ; i++)
             {
-                html += "<button id='" + word_id + "-" + priconneyomi_array[i] + "' onclick='toggle_phrase(\"" + word_id + "\", \"" + priconneyomi_array[i] + "\", \"priconneyomi\")'>";
+                let reading = to_alphanumeric(priconneyomi_array[i]);
+                html += "<button id='" + word_id + "-" + reading + "' onclick='toggle_phrase(\"" + word_id + "\", \"" + reading + "\", \"priconneyomi\")'>";
                 html += "<div class='priconneyomi word-list-text' style='font-weight: bolder'>" + priconneyomi_array[i] + "</div>";
                 html += "</button><br>";
             }
@@ -715,7 +724,8 @@ function check_if_word_complete(word_id)
 
     for (let i = 0 ; i < merged_array.length ; i++)
     {
-        if (!document.getElementById(word_id + "-" + merged_array[i]).classList.contains("low-opacity"))
+        let reading = to_alphanumeric(merged_array[i]);
+        if (!document.getElementById(word_id + "-" + reading).classList.contains("low-opacity"))
         {
             document.getElementById(word_id + "-complete").hidden = true;
             return false;
