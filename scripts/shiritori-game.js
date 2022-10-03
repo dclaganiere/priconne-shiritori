@@ -209,7 +209,7 @@ function remove_word_from_collection(word_id, phrase, phrase_type)
     let word = word_id + ";" + phrase + ";" + phrase_type;
 
     phrase = to_alphanumeric(phrase);
-    
+
     // CHECK IF WORD EXISTS IN COLLECTION
     if (shiritori_game.collected_words.includes(word))
     {
@@ -384,33 +384,36 @@ function get_possible_words(phrase)
             let user_phrases_string = "";
             let kaya_and_user_phrases_string = "";
 
-            npc_choices_map.get(last_character).forEach(function (kaya_phrase)
+            if (npc_choices_map.has(last_character))
             {
-                // GET LAST CHARACTER OF KAYA'S OPTION AND SEE IF THE USER CAN GET SOMETHING OUT OF IT
-                let lc = get_last_character(kaya_phrase.split(';')[1]);
-                let missing_phrases = missing_phrase_map.get(lc);
-
-                // CHECK STATUS
-                if (kaya_new_phrases.includes(kaya_phrase))
+                npc_choices_map.get(last_character).forEach(function (kaya_phrase)
                 {
-                    kaya_can_select_new_phrase = true;
-                    kaya_phrases_string += "  - " + kaya_phrase + "\n";
-                }
+                    // GET LAST CHARACTER OF KAYA'S OPTION AND SEE IF THE USER CAN GET SOMETHING OUT OF IT
+                    let lc = get_last_character(kaya_phrase.split(';')[1]);
+                    let missing_phrases = missing_phrase_map.get(lc);
 
-                if (missing_phrases != null)
-                {
-                    if (missing_phrases.length > 0)
+                    // CHECK STATUS
+                    if (kaya_new_phrases.includes(kaya_phrase))
                     {
-                        user_can_select_new_phrase = true;
-                        user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                        kaya_can_select_new_phrase = true;
+                        kaya_phrases_string += "  - " + kaya_phrase + "\n";
                     }
-                    if ((kaya_new_phrases.includes(kaya_phrase) && missing_phrases.length > 0))
+
+                    if (missing_phrases != null)
                     {
-                        kaya_and_user_can_select_new_phrases = true;
-                        kaya_and_user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                        if (missing_phrases.length > 0)
+                        {
+                            user_can_select_new_phrase = true;
+                            user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                        }
+                        if ((kaya_new_phrases.includes(kaya_phrase) && missing_phrases.length > 0))
+                        {
+                            kaya_and_user_can_select_new_phrases = true;
+                            kaya_and_user_phrases_string += "  - " + kaya_phrase + " -> (" + missing_phrases.length + " New Choices)\n";
+                        }
                     }
-                }
-            });
+                });
+            }
 
             // ASSIGN APPROPRIATE COLOR DEPENDING ON RESULT
             if (kaya_and_user_can_select_new_phrases)
