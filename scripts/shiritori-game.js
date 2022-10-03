@@ -83,6 +83,7 @@ function shiritori(word_id, phrase, phrase_type)
 
 function update_latest_selection(word_id, phrase, phrase_type)
 {
+    phrase = to_alphanumeric(phrase);
     document.getElementById("latest-selection-image").src = "images/game/" + word_id + ".png";
     document.getElementById("latest-selection-image").alt = word_id + ";" + phrase + ";" + phrase_type;
     document.getElementById("latest-selection-character").innerHTML = get_last_character(phrase);
@@ -148,9 +149,8 @@ function undo_phrase()
 
 function add_word_to_collection(word_id, phrase, phrase_type)
 {
-    let word = word_id + ";" + phrase + ";" + phrase_type;
-
     phrase = to_alphanumeric(phrase);
+    let word = word_id + ";" + phrase + ";" + phrase_type;
 
     // CHECK IF WORD EXISTS IN COLLECTION
     if (!shiritori_game.collected_words.includes(word))
@@ -206,9 +206,8 @@ function add_word_to_collection(word_id, phrase, phrase_type)
 
 function remove_word_from_collection(word_id, phrase, phrase_type)
 {
-    let word = word_id + ";" + phrase + ";" + phrase_type;
-
     phrase = to_alphanumeric(phrase);
+    let word = word_id + ";" + phrase + ";" + phrase_type;
 
     // CHECK IF WORD EXISTS IN COLLECTION
     if (shiritori_game.collected_words.includes(word))
@@ -337,7 +336,7 @@ function get_possible_words(phrase)
             table_html += "</tr><tr>";
         }
 
-        let phrase = Object.keys(phrase_data)[0];
+        let phrase = to_alphanumeric(Object.keys(phrase_data)[0]);
         let phrase_type = phrase_data[phrase];
         let is_word_already_collected = shiritori_game.collected_words.includes(word_id + ";" + phrase + ";" + phrase_type);
 
@@ -588,7 +587,7 @@ function build_all_choices()
             table_html += "</tr><tr>";
         }
 
-        let phrase = Object.keys(phrase_data)[0];
+        let phrase = to_alphanumeric(Object.keys(phrase_data)[0]);
         let phrase_type = phrase_data[phrase];
         let is_word_already_collected = shiritori_game.collected_words.includes(word_id + ";" + phrase + ";" + phrase_type);
 
@@ -713,6 +712,7 @@ function build_word_list()
 
 function toggle_phrase(word_id, phrase, phrase_type)
 {
+    phrase = to_alphanumeric(phrase);
     let word = word_id + ";" + phrase + ";" + phrase_type;
     if (shiritori_game.collected_words.includes(word))
     {
