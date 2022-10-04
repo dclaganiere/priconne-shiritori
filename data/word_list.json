@@ -7,7 +7,7 @@
       "fruit"
     ],
     "priconneyomi": [
-      "metamorph apple"
+      "metamorphapple"
     ]
   },
   "gorilla": {
@@ -19,7 +19,7 @@
       "chimp"
     ],
     "priconneyomi": [
-      "monkey master"
+      "monkeymaster"
     ]
   },
   "trumpet": {
@@ -48,22 +48,22 @@
     ],
     "urayomi": [
       "treasure",
-      "priceless jewel"
+      "pricelessjewel"
     ],
     "priconneyomi": [
-      "akinos brooch",
-      "brilliance of wisteria"
+      "akinosbrooch",
+      "brillianceofwisteria"
     ]
   },
   "beer": {
     "futsuyomi": [
-      "definitely not beer",
+      "definitelynotbeer",
       "tankard"
     ],
     "urayomi": [],
     "priconneyomi": [
-      "barley broth",
-      "eternal tankard"
+      "barleybroth",
+      "eternaltankard"
     ]
   },
   "bow": {
@@ -72,7 +72,7 @@
       "arrow"
     ],
     "urayomi": [
-      "ranged weapon",
+      "rangedweapon",
       "projectile"
     ],
     "priconneyomi": []
@@ -110,7 +110,7 @@
       "weapon"
     ],
     "priconneyomi": [
-      "princess sword"
+      "princesssword"
     ]
   },
   "glasses": {
@@ -118,17 +118,17 @@
       "glasses"
     ],
     "urayomi": [
-      "swirly specs",
+      "swirlyspecs",
       "eyewear",
       "otaku"
     ],
     "priconneyomi": [
-      "karins glasses"
+      "karinsglasses"
     ]
   },
   "lens": {
     "futsuyomi": [
-      "magnifying glass",
+      "magnifyingglass",
       "lens"
     ],
     "urayomi": [
@@ -136,8 +136,8 @@
       "focus"
     ],
     "priconneyomi": [
-      "kasumis trademark",
-      "detective magnifier"
+      "kasumistrademark",
+      "detectivemagnifier"
     ]
   },
   "meat": {
@@ -146,24 +146,24 @@
     ],
     "urayomi": [
       "ham",
-      "roast beef",
-      "cavemans meal"
+      "roastbeef",
+      "cavemansmeal"
     ],
     "priconneyomi": [
-      "dragon meat"
+      "dragonmeat"
     ]
   },
   "moon": {
     "futsuyomi": [
       "moon",
-      "full moon"
+      "fullmoon"
     ],
     "urayomi": [
       "luna",
-      "night sky"
+      "nightsky"
     ],
     "priconneyomi": [
-      "origin strike: severing moon"
+      "originstrikeseveringmoon"
     ]
   },
   "bat": {
@@ -171,11 +171,11 @@
       "bats"
     ],
     "urayomi": [
-      "flying foxes",
+      "flyingfoxes",
       "chiroptera"
     ],
     "priconneyomi": [
-      "illyas minions"
+      "illyasminions"
     ]
   },
   "bird": {
@@ -187,7 +187,7 @@
       "exotic"
     ],
     "priconneyomi": [
-      "hatsunes perfect present"
+      "hatsunesperfectpresent"
     ]
   },
   "shoes": {
@@ -200,7 +200,7 @@
       "footwear"
     ],
     "priconneyomi": [
-      "equipment item"
+      "equipmentitem"
     ]
   },
   "cat": {
@@ -213,7 +213,7 @@
       "meow"
     ],
     "priconneyomi": [
-      "tamakis little pal"
+      "tamakislittlepal"
     ]
   },
   "goldfish": {
@@ -222,8 +222,8 @@
       "fish"
     ],
     "urayomi": [
-      "pet fish",
-      "cat food"
+      "petfish",
+      "catfood"
     ],
     "priconneyomi": []
   },
@@ -234,7 +234,7 @@
     ],
     "urayomi": [
       "squeak",
-      "cat food"
+      "catfood"
     ],
     "priconneyomi": []
   },
@@ -244,8 +244,8 @@
       "eggs"
     ],
     "urayomi": [
-      "birds dwelling",
-      "omelet in the making"
+      "birdsdwelling",
+      "omeletinthemaking"
     ],
     "priconneyomi": []
   },
@@ -256,7 +256,7 @@
       "yacht"
     ],
     "urayomi": [
-      "ocean liner"
+      "oceanliner"
     ],
     "priconneyomi": []
   },
@@ -274,15 +274,15 @@
   },
   "chocolate": {
     "futsuyomi": [
-      "chocolate bar",
+      "chocolatebar",
       "bar"
     ],
     "urayomi": [
-      "sugary snack",
+      "sugarysnack",
       "tablet"
     ],
     "priconneyomi": [
-      "draggos favorite"
+      "draggosfavorite"
     ]
   },
   "acorn": {
@@ -291,10 +291,10 @@
       "oaknut"
     ],
     "urayomi": [
-      "squirrel food"
+      "squirrelfood"
     ],
     "priconneyomi": [
-      "rins snack"
+      "rinssnack"
     ]
   },
   "strawberry": {
@@ -303,7 +303,7 @@
       "berry"
     ],
     "urayomi": [
-      "ice cream flavor"
+      "icecreamflavor"
     ],
     "priconneyomi": []
   },
@@ -313,12 +313,12 @@
     ],
     "urayomi": [
       "cat",
-      "big cat",
+      "bigcat",
       "predator"
     ],
     "priconneyomi": [
-      "matsuris idol",
-      "fearless hero tora tiger"
+      "matsurisidol",
+      "fearlessherotoratiger"
     ]
   },
   "rabbit": {
@@ -328,7 +328,7 @@
       "bunny"
     ],
     "urayomi": [
-      "makoto bait"
+      "makotobait"
     ],
     "priconneyomi": [
       "arthur"
@@ -340,11 +340,11 @@
       "explosive"
     ],
     "urayomi": [
-      "safety hazard",
-      "dangerous item"
+      "safetyhazard",
+      "dangerousitem"
     ],
     "priconneyomi": [
-      "misogis prank"
+      "misogisprank"
     ]
   },
   "watermelon": {
@@ -353,7 +353,7 @@
     ],
     "urayomi": [
       "fruit",
-      "summer tradition"
+      "summertradition"
     ],
     "priconneyomi": []
   },
@@ -364,11 +364,11 @@
     ],
     "urayomi": [
       "steed",
-      "clip clop",
+      "clipclop",
       "thoroughbred"
     ],
     "priconneyomi": [
-      "night mare"
+      "nightmare"
     ]
   },
   "chair": {
@@ -379,7 +379,7 @@
       "furniture"
     ],
     "priconneyomi": [
-      "guildhouse item",
+      "guildhouseitem",
       "masaki"
     ]
   },
@@ -390,11 +390,11 @@
     ],
     "urayomi": [
       "island",
-      "desert island",
+      "desertisland",
       "ocean"
     ],
     "priconneyomi": [
-      "marjan coast"
+      "marjancoast"
     ]
   },
   "crab": {
@@ -403,10 +403,10 @@
     ],
     "urayomi": [
       "monster",
-      "shell of steel"
+      "shellofsteel"
     ],
     "priconneyomi": [
-      "hermit knight"
+      "hermitknight"
     ]
   },
   "recorder": {
@@ -416,7 +416,7 @@
     ],
     "urayomi": [
       "instrument",
-      "wind instrument"
+      "windinstrument"
     ],
     "priconneyomi": []
   },
@@ -426,11 +426,11 @@
       "novel"
     ],
     "urayomi": [
-      "tome of magic",
+      "tomeofmagic",
       "hardcover"
     ],
     "priconneyomi": [
-      "karyls spellbook"
+      "karylsspellbook"
     ]
   },
   "fish": {
@@ -440,8 +440,8 @@
     ],
     "urayomi": [
       "mackerel",
-      "saltwater fish",
-      "cat food",
+      "saltwaterfish",
+      "catfood",
       "whopper"
     ],
     "priconneyomi": []
@@ -449,11 +449,11 @@
   "tree": {
     "futsuyomi": [
       "tree",
-      "holiday decoration"
+      "holidaydecoration"
     ],
     "urayomi": [
-      "fir tree",
-      "caroling season",
+      "firtree",
+      "carolingseason",
       "yuletide"
     ],
     "priconneyomi": []
@@ -467,20 +467,20 @@
       "pop"
     ],
     "priconneyomi": [
-      "chloes grub"
+      "chloesgrub"
     ]
   },
   "hammer": {
     "futsuyomi": [
       "hammer",
-      "toy hammer"
+      "toyhammer"
     ],
     "urayomi": [
-      "squeaky hammer",
+      "squeakyhammer",
       "gavel"
     ],
     "priconneyomi": [
-      "inoris weapon"
+      "inorisweapon"
     ]
   },
   "star": {
@@ -489,13 +489,13 @@
       "five-pointed star"
     ],
     "urayomi": [
-      "outer space",
+      "outerspace",
       "pentagram",
-      "night sky"
+      "nightsky"
     ],
     "priconneyomi": [
-      "twinkle wish",
-      "landosol city"
+      "twinklewish",
+      "landosolcity"
     ]
   },
   "hat": {
@@ -505,7 +505,7 @@
     "urayomi": [
       "fedora",
       "trilby",
-      "gangster hat"
+      "gangsterhat"
     ],
     "priconneyomi": []
   },
@@ -527,7 +527,7 @@
     "urayomi": [
       "puppy",
       "cub",
-      "mans best friend"
+      "mansbestfriend"
     ],
     "priconneyomi": []
   },
@@ -549,8 +549,8 @@
       "birthday"
     ],
     "priconneyomi": [
-      "guildhouse gift",
-      "mixed berry cake"
+      "guildhousegift",
+      "mixedberrycake"
     ]
   },
   "microphone": {
@@ -560,10 +560,10 @@
       "karaoke"
     ],
     "urayomi": [
-      "idols best friend"
+      "idolsbestfriend"
     ],
     "priconneyomi": [
-      "brilliant microphone"
+      "brilliantmicrophone"
     ]
   },
   "lipstick": {
@@ -579,11 +579,11 @@
   "mochi": {
     "futsuyomi": [
       "mochi",
-      "kagami mochi",
-      "rice cakes"
+      "kagamimochi",
+      "ricecakes"
     ],
     "urayomi": [
-      "new years decoration",
+      "newyearsdecoration",
       "orange"
     ],
     "priconneyomi": []
@@ -604,12 +604,12 @@
       "umbrella"
     ],
     "urayomi": [
-      "beach parasol",
+      "beachparasol",
       "yellow",
-      "rainy day"
+      "rainyday"
     ],
     "priconneyomi": [
-      "pecorine summer"
+      "pecorinesummer"
     ]
   },
   "dice": {
@@ -617,12 +617,12 @@
       "dice"
     ],
     "urayomi": [
-      "random number",
+      "randomnumber",
       "box",
       "plastic"
     ],
     "priconneyomi": [
-      "yoris game supplies"
+      "yorisgamesupplies"
     ]
   },
   "letter": {
@@ -632,7 +632,7 @@
       "post"
     ],
     "urayomi": [
-      "confession of love",
+      "confessionoflove",
       "romantic"
     ],
     "priconneyomi": []
@@ -643,7 +643,7 @@
     ],
     "urayomi": [
       "fruit",
-      "undried raisins",
+      "undriedraisins",
       "wine-making"
     ],
     "priconneyomi": []
@@ -664,8 +664,8 @@
     ],
     "urayomi": [
       "hiyayakko",
-      "bean curd",
-      "eastern dish"
+      "beancurd",
+      "easterndish"
     ],
     "priconneyomi": []
   },
@@ -677,7 +677,7 @@
     "urayomi": [
       "bird",
       "waterfowl",
-      "ugly duckling"
+      "uglyduckling"
     ],
     "priconneyomi": []
   },
@@ -695,21 +695,21 @@
   "leaf": {
     "futsuyomi": [
       "leaf",
-      "plant leaf"
+      "plantleaf"
     ],
     "urayomi": [
       "greenery",
       "herb"
     ],
     "priconneyomi": [
-      "aois friends"
+      "aoisfriends"
     ]
   },
   "ring": {
     "futsuyomi": [
       "ring",
       "band",
-      "wedding vows"
+      "weddingvows"
     ],
     "urayomi": [],
     "priconneyomi": []
@@ -725,7 +725,7 @@
       "untied"
     ],
     "priconneyomi": [
-      "kukas property"
+      "kukasproperty"
     ]
   },
   "shield": {
@@ -735,11 +735,11 @@
     "urayomi": [
       "guard",
       "armor",
-      "defensive gear",
+      "defensivegear",
       "buckler"
     ],
     "priconneyomi": [
-      "inferno shield"
+      "infernoshield"
     ]
   },
   "money": {
@@ -749,23 +749,23 @@
     ],
     "urayomi": [
       "cash",
-      "small change",
+      "smallchange",
       "dough"
     ],
     "priconneyomi": [
       "rupies",
-      "furniture funds"
+      "furniturefunds"
     ]
   },
   "dessert": {
     "futsuyomi": [
       "pudding",
       "flan",
-      "creme caramel"
+      "cremecaramel"
     ],
     "urayomi": [],
     "priconneyomi": [
-      "miyakos favorite foodstuff"
+      "miyakosfavoritefoodstuff"
     ]
   },
   "necklace": {
@@ -793,24 +793,24 @@
   },
   "soy_sauce": {
     "futsuyomi": [
-      "soy sauce"
+      "soysauce"
     ],
     "urayomi": [
       "condiment",
-      "flavor of the east"
+      "flavoroftheeast"
     ],
     "priconneyomi": []
   },
   "conveyor_belt": {
     "futsuyomi": [
-      "conveyor belt"
+      "conveyorbelt"
     ],
     "urayomi": [
       "taiyaki",
       "invention"
     ],
     "priconneyomi": [
-      "factory of doom"
+      "factoryofdoom"
     ]
   },
   "chandelier": {
@@ -828,7 +828,7 @@
     ],
     "urayomi": [
       "condiment",
-      "not sugar"
+      "notsugar"
     ],
     "priconneyomi": []
   },
@@ -843,24 +843,24 @@
   },
   "fishing_rod": {
     "futsuyomi": [
-      "fishing rod"
+      "fishingrod"
     ],
     "urayomi": [
       "angling"
     ],
     "priconneyomi": [
-      "rukas hobby"
+      "rukashobby"
     ]
   },
   "pot": {
     "futsuyomi": [
-      "cooking pot",
+      "cookingpot",
       "pan"
     ],
     "urayomi": [
       "stew",
-      "beef stroganoff",
-      "hearty meal"
+      "beefstroganoff",
+      "heartymeal"
     ],
     "priconneyomi": []
   },
@@ -883,10 +883,10 @@
     ],
     "urayomi": [
       "calligraphy",
-      "art supplies"
+      "artsupplies"
     ],
     "priconneyomi": [
-      "togoku writing"
+      "togokuwriting"
     ]
   },
   "dumbbell": {
@@ -918,7 +918,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "i scratch your back"
+      "iscratchyourback"
     ]
   },
   "yui": {
@@ -928,7 +928,7 @@
     "urayomi": [],
     "priconneyomi": [
       "healer",
-      "makotos childhood friend"
+      "makotoschildhoodfriend"
     ]
   },
   "rei": {
@@ -965,7 +965,7 @@
     "urayomi": [],
     "priconneyomi": [
       "twin",
-      "yoris sister"
+      "yorissister"
     ]
   },
   "miyako": {
@@ -994,8 +994,8 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "hecate of the gale",
-      "order of gehenna immortals"
+      "hecateofthegale",
+      "orderofgehennaimmortals"
     ]
   },
   "maho": {
@@ -1004,7 +1004,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "princess maho",
+      "princessmaho",
       "fox"
     ]
   },
@@ -1014,7 +1014,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "little sis",
+      "littlesis",
       "malapropist"
     ]
   },
@@ -1026,7 +1026,7 @@
     "priconneyomi": [
       "psychic",
       "narcoleptic",
-      "shioris sis"
+      "shiorissis"
     ]
   },
   "nanaka": {
@@ -1035,7 +1035,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "magical girl",
+      "magicalgirl",
       "otaku"
     ]
   },
@@ -1046,7 +1046,7 @@
     "urayomi": [],
     "priconneyomi": [
       "detective",
-      "mystery aficionado"
+      "mysteryaficionado"
     ]
   },
   "misato": {
@@ -1055,7 +1055,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "nursery teacher"
+      "nurseryteacher"
     ]
   },
   "suzuna": {
@@ -1085,7 +1085,7 @@
     "urayomi": [],
     "priconneyomi": [
       "teacher",
-      "novice teacher"
+      "noviceteacher"
     ]
   },
   "mimi": {
@@ -1094,7 +1094,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "bunny lover"
+      "bunnylover"
     ]
   },
   "kurumi": {
@@ -1113,7 +1113,7 @@
     "urayomi": [],
     "priconneyomi": [
       "twin",
-      "akaris sister",
+      "akarissister",
       "gamer"
     ]
   },
@@ -1123,7 +1123,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "pukichis pal"
+      "pukichispal"
     ]
   },
   "suzume": {
@@ -1133,7 +1133,7 @@
     "urayomi": [],
     "priconneyomi": [
       "maid",
-      "klutzy maid"
+      "klutzymaid"
     ]
   },
   "rin": {
@@ -1178,8 +1178,8 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "togoku maniac",
-      "samurai or ninja"
+      "togokumaniac",
+      "samuraiorninja"
     ]
   },
   "shinobu": {
@@ -1197,7 +1197,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "rich beyond belief"
+      "richbeyondbelief"
     ]
   },
   "mahiru": {
@@ -1225,7 +1225,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "model student"
+      "modelstudent"
     ]
   },
   "tomo": {
@@ -1234,7 +1234,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "mikuma style"
+      "mikumastyle"
     ]
   },
   "shiori": {
@@ -1243,7 +1243,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "hatsunes sis"
+      "hatsunessis"
     ]
   },
   "aoi": {
@@ -1253,7 +1253,7 @@
     "urayomi": [],
     "priconneyomi": [
       "loner",
-      "bb brigade member"
+      "bbbrigademember"
     ]
   },
   "chika": {
@@ -1262,7 +1262,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "song summoner",
+      "songsummoner",
       "diva"
     ]
   },
@@ -1272,7 +1272,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "yuis childhood friend"
+      "yuischildhoodfriend"
     ]
   },
   "ilya": {
@@ -1281,9 +1281,9 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "legendary vampire",
-      "ruler of the night",
-      "true form"
+      "legendaryvampire",
+      "rulerofthenight",
+      "trueform"
     ]
   },
   "kuuka": {
@@ -1302,16 +1302,16 @@
     "urayomi": [],
     "priconneyomi": [
       "catgirl",
-      "phantom thief"
+      "phantomthief"
     ]
   },
   "jun": {
     "futsuyomi": [
-      "captain jun"
+      "captainjun"
     ],
     "urayomi": [],
     "priconneyomi": [
-      "nightmare captain"
+      "nightmarecaptain"
     ]
   },
   "mifuyu": {
@@ -1320,7 +1320,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "efficiency freak",
+      "efficiencyfreak",
       "part-timer"
     ]
   },
@@ -1330,7 +1330,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "big sis"
+      "bigsis"
     ]
   },
   "misaki": {
@@ -1377,7 +1377,7 @@
     "urayomi": [],
     "priconneyomi": [
       "seamstress",
-      "reis biggest fan"
+      "reisbiggestfan"
     ]
   },
   "ayumi": {
@@ -1395,7 +1395,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "boss lady"
+      "bosslady"
     ]
   },
   "djeeta": {
@@ -1413,10 +1413,10 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "gourmet girl",
-      "royal equipment",
-      "eustiana von astraea",
-      "how crazy is that"
+      "gourmetgirl",
+      "royalequipment",
+      "eustianavonastraea",
+      "howcrazyisthat"
     ]
   },
   "kokkoro": {
@@ -1436,7 +1436,7 @@
     "urayomi": [],
     "priconneyomi": [
       "tsundere",
-      "ill kill you dead"
+      "illkillyoudead"
     ]
   },
   "muimi": {
@@ -1455,7 +1455,7 @@
     "urayomi": [],
     "priconneyomi": [
       "elf",
-      "forest guardian"
+      "forestguardian"
     ]
   },
   "neneka": {
@@ -1464,7 +1464,7 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "metamorph monarch",
+      "metamorphmonarch",
       "duplicate"
     ]
   },
@@ -1474,8 +1474,8 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "regina geas",
-      "nightmares vice-captain"
+      "reginageas",
+      "nightmaresvice-captain"
     ]
   },
   "inori": {
@@ -1484,8 +1484,8 @@
     ],
     "urayomi": [],
     "priconneyomi": [
-      "fiery breath",
-      "big boss"
+      "fierybreath",
+      "bigboss"
     ]
   },
   "kaya": {
@@ -1523,7 +1523,7 @@
     "urayomi": [],
     "priconneyomi": [
       "etchellaree-chellaroob",
-      "idol stan"
+      "idolstan"
     ]
   },
   "yuni": {
@@ -1533,7 +1533,7 @@
     "urayomi": [],
     "priconneyomi": [
       "academic",
-      "crazy of st. ts"
+      "crazyofst.ts"
     ]
   }
 }
